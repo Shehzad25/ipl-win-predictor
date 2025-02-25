@@ -39,7 +39,7 @@ target=st.number_input('Target')
 col3,col4,col5=st.columns(3)
 
 with col3:
-    score=st.number_input('"Score')
+    score=st.number_input('Score')
 
 with col4:
     overs=st.number_input("Overs Completed")
